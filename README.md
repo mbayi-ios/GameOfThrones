@@ -43,7 +43,7 @@ For the project to achieve simple MVP
 
 All the above requirement features are achieved.
 
-| Error | screenshot |
+| Error | Error |
 | ------  | ----- |
 | <img src="https://user-images.githubusercontent.com/91916741/197266220-ed87d528-7051-4e7c-8cce-209844d5b661.png" width= "25%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266231-8cfc56d0-9451-4a10-8bbe-6321a1cae21a.png" width= "25%" /> |
 
@@ -51,7 +51,7 @@ All the above requirement features are achieved.
 launch screen and list of houses
 
 
-| Error | screenshot |
+| Screenshot | screenshot |
 | ------  | ----- |
 | <img src="https://user-images.githubusercontent.com/91916741/197266244-199630b8-3c80-4840-a08c-02e7ea2fbcf5.png" width= "25%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266248-174e3bd1-21d1-4af7-8ef1-0b237846131d.png" width= "25%" /> |
 
@@ -60,7 +60,7 @@ launch screen and list of houses
 | <img src="https://user-images.githubusercontent.com/91916741/197266244-199630b8-3c80-4840-a08c-02e7ea2fbcf5.png" width= "25%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266248-174e3bd1-21d1-4af7-8ef1-0b237846131d.png" width= "25%" /> |
 
 
-| Error | screenshot |
+| How the app appears on phone | Launch Screen |
 | ------  | ----- |
 | <img src="https://user-images.githubusercontent.com/91916741/197266263-5b0e1316-6a4b-4483-875f-8d7150be38b6.png" width= "25%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266258-0968a59b-6141-4a03-a7b3-e3a3177d9860.png" width= "25%" /> |
 
