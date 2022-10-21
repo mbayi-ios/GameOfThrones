@@ -43,14 +43,13 @@ For the project to achieve simple MVP
 
 All the above requirement features are achieved.
 
-```md
 | Error | screenshot |
 | ------  | ----- |
 | <img src="" width= "50%" /> |<img src="" width= "50%" /> |
 
 
 launch screen and list of houses
-```
+
 
 ```md
 | Index | screenshot |
