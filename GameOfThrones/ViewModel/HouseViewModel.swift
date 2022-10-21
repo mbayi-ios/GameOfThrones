@@ -8,11 +8,31 @@
 import SwiftUI
 
 final class HouseViewModel: ObservableObject {
-    @Published var houses: [House] = load("HousesData.json")
+    //@Published var houses: [House] = load("HousesData.json") -> loading data from json
+
+    @Published private(set) var houses: [House] = []
+    @Published private(set) var error: NetworkingManager.NetworkingError?
+    @Published var hasError = false
+
+    func fetchHouses() {
+        NetworkingManager.shared.request("https://www.anapioficeandfire.com/api/houses/", type: [House].self) {[weak self] res in
+            DispatchQueue.main.async {
+                switch res {
+                case .success(let response):
+                    self?.houses = response
+                    print("response\(response)")
+                case .failure(let error):
+                    print(error)
+                    self?.hasError = true
+                    self?.error = error as? NetworkingManager.NetworkingError
+                }
+            }
+        }
+    }
 }
 
 
-
+//JSON static mapper function -> to fetch fake data
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
@@ -34,3 +54,4 @@ func load<T: Decodable>(_ filename: String) -> T {
         fatalError("couldnt parse \(filename) as \(T.self): \n\(error)")
     }
 }
+

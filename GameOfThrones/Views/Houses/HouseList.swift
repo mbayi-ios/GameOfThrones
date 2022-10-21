@@ -23,6 +23,14 @@ struct HouseList: View {
                 }
                 .navigationTitle("Houses of GT")
             }
+            .onAppear {
+                viewModel.fetchHouses()
+            }
+            .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
+                Button("Retry") {
+                    viewModel.fetchHouses()
+                }
+            }
         }
     }
 }

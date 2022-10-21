@@ -14,7 +14,7 @@ import SwiftUI
    "words": "",
  */
 
-struct House: Decodable, Identifiable {
+struct House: Codable, Identifiable {
     var name: String
     var region: String
     var coatOfArms: String

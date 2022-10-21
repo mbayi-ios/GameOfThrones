@@ -17,6 +17,7 @@
 		89F2D00C2902B8E600E929DE /* HousesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 89F2D00B2902B8E600E929DE /* HousesData.json */; };
 		89F2D00E2902BAC100E929DE /* HouseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D00D2902BAC100E929DE /* HouseRow.swift */; };
 		89F2D0102902BBE700E929DE /* HouseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D00F2902BBE700E929DE /* HouseDetail.swift */; };
+		89F2D0132902CFBA00E929DE /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D0122902CFBA00E929DE /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		89F2D00B2902B8E600E929DE /* HousesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HousesData.json; sourceTree = "<group>"; };
 		89F2D00D2902BAC100E929DE /* HouseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRow.swift; sourceTree = "<group>"; };
 		89F2D00F2902BBE700E929DE /* HouseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetail.swift; sourceTree = "<group>"; };
+		89F2D0122902CFBA00E929DE /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		89F2CFF02902B22700E929DE /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				89F2D0112902CFA800E929DE /* Utilities */,
 				89F2D0082902B87E00E929DE /* ViewModel */,
 				89F2D0032902B83300E929DE /* Model */,
 				89F2D0022902B81500E929DE /* Resources */,
@@ -123,6 +126,14 @@
 				89F2D00F2902BBE700E929DE /* HouseDetail.swift */,
 			);
 			path = Houses;
+			sourceTree = "<group>";
+		};
+		89F2D0112902CFA800E929DE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				89F2D0122902CFBA00E929DE /* NetworkingManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				89F2D0102902BBE700E929DE /* HouseDetail.swift in Sources */,
 				89F2D0072902B85B00E929DE /* HouseViewModel.swift in Sources */,
 				89F2D0052902B84800E929DE /* House.swift in Sources */,
+				89F2D0132902CFBA00E929DE /* NetworkingManager.swift in Sources */,
 				89F2CFF22902B22700E929DE /* GameOfThronesApp.swift in Sources */,
 				89F2D00E2902BAC100E929DE /* HouseRow.swift in Sources */,
 			);
