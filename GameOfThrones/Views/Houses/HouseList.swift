@@ -12,26 +12,32 @@ struct HouseList: View {
 
     var body: some View {
         NavigationView {
-            List {
-                ForEach(viewModel.houses) { house in
-                    NavigationLink {
-                        HouseDetail(house: house)
-                    } label: {
-                        HouseRow(house: house)
-                    }
+            ZStack {
 
+                List {
+                    ForEach(viewModel.houses) { house in
+                        NavigationLink {
+                            HouseDetail(house: house)
+                        } label: {
+                            HouseRow(house: house)
+                        }
+                    }
+                    .navigationTitle("Houses of GT")
+                    .foregroundColor(.blue)
+                    .listStyle(InsetGroupedListStyle())
+                    .padding(10)
                 }
-                .navigationTitle("Houses of GT")
-            }
-            .onAppear {
-                viewModel.fetchHouses()
-            }
-            .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
-                Button("Retry") {
+                .onAppear {
                     viewModel.fetchHouses()
+                }
+                .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
+                    Button("Retry") {
+                        viewModel.fetchHouses()
+                    }
                 }
             }
         }
+        .accentColor(.white)
     }
 }
 

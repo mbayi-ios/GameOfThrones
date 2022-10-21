@@ -17,10 +17,16 @@ import SwiftUI
 struct House: Codable, Identifiable {
     var name: String
     var region: String
-    var coatOfArms: String
+    var coatOfArms: String?
     var words: String
-
+    var founded: String
     var id: String {
         name
     }
+
+    var yearFounded: String {
+        return !founded.isEmpty ? founded : "no Date"
+    }
+
+   
 }
