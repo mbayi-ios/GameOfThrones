@@ -45,7 +45,7 @@ All the above requirement features are achieved.
 
 | Error | screenshot |
 | ------  | ----- |
-| <img src="" width= "50%" /> |<img src="" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/197266220-ed87d528-7051-4e7c-8cce-209844d5b661.png" width= "25%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266231-8cfc56d0-9451-4a10-8bbe-6321a1cae21a.png" width= "25%" /> |
 
 
 launch screen and list of houses
@@ -62,8 +62,8 @@ Error handling when network is down, when wrong api is fetched
 
 ![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 10 45]()
 ![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 10 23]()
-![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 10 05](https://user-images.githubusercontent.com/91916741/197266220-ed87d528-7051-4e7c-8cce-209844d5b661.png)
-![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 08 50](https://user-images.githubusercontent.com/91916741/197266231-8cfc56d0-9451-4a10-8bbe-6321a1cae21a.png)
+![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 10 05]()
+![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 08 50]()
 ![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 07 54](https://user-images.githubusercontent.com/91916741/197266244-199630b8-3c80-4840-a08c-02e7ea2fbcf5.png)
 ![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 07 47](https://user-images.githubusercontent.com/91916741/197266248-174e3bd1-21d1-4af7-8ef1-0b237846131d.png)
 ![Simulator Screen Shot - iPhone 13 mini - 2022-10-21 at 21 07 42](https://user-images.githubusercontent.com/91916741/197266252-ef973058-0c84-4403-aab0-e194a1b9201e.png)
