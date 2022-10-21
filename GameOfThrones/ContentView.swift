@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = HouseViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+       HouseList()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(HouseViewModel())
     }
 }

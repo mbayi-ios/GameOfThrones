@@ -11,6 +11,12 @@
 		89F2CFF42902B22700E929DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2CFF32902B22700E929DE /* ContentView.swift */; };
 		89F2CFF62902B22900E929DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2CFF52902B22900E929DE /* Assets.xcassets */; };
 		89F2CFF92902B22900E929DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F2CFF82902B22900E929DE /* Preview Assets.xcassets */; };
+		89F2D0012902B23C00E929DE /* HouseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D0002902B23C00E929DE /* HouseList.swift */; };
+		89F2D0052902B84800E929DE /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D0042902B84800E929DE /* House.swift */; };
+		89F2D0072902B85B00E929DE /* HouseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D0062902B85B00E929DE /* HouseViewModel.swift */; };
+		89F2D00C2902B8E600E929DE /* HousesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 89F2D00B2902B8E600E929DE /* HousesData.json */; };
+		89F2D00E2902BAC100E929DE /* HouseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D00D2902BAC100E929DE /* HouseRow.swift */; };
+		89F2D0102902BBE700E929DE /* HouseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2D00F2902BBE700E929DE /* HouseDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		89F2CFF32902B22700E929DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89F2CFF52902B22900E929DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89F2CFF82902B22900E929DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89F2D0002902B23C00E929DE /* HouseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseList.swift; sourceTree = "<group>"; };
+		89F2D0042902B84800E929DE /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		89F2D0062902B85B00E929DE /* HouseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewModel.swift; sourceTree = "<group>"; };
+		89F2D00B2902B8E600E929DE /* HousesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HousesData.json; sourceTree = "<group>"; };
+		89F2D00D2902BAC100E929DE /* HouseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRow.swift; sourceTree = "<group>"; };
+		89F2D00F2902BBE700E929DE /* HouseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,10 @@
 		89F2CFF02902B22700E929DE /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				89F2D0082902B87E00E929DE /* ViewModel */,
+				89F2D0032902B83300E929DE /* Model */,
+				89F2D0022902B81500E929DE /* Resources */,
+				89F2CFFF2902B23000E929DE /* Views */,
 				89F2CFF12902B22700E929DE /* GameOfThronesApp.swift */,
 				89F2CFF32902B22700E929DE /* ContentView.swift */,
 				89F2CFF52902B22900E929DE /* Assets.xcassets */,
@@ -65,6 +81,48 @@
 				89F2CFF82902B22900E929DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89F2CFFF2902B23000E929DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89F2D0092902B8AC00E929DE /* Houses */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89F2D0022902B81500E929DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89F2D00B2902B8E600E929DE /* HousesData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		89F2D0032902B83300E929DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89F2D0042902B84800E929DE /* House.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89F2D0082902B87E00E929DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89F2D0062902B85B00E929DE /* HouseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89F2D0092902B8AC00E929DE /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				89F2D0002902B23C00E929DE /* HouseList.swift */,
+				89F2D00D2902BAC100E929DE /* HouseRow.swift */,
+				89F2D00F2902BBE700E929DE /* HouseDetail.swift */,
+			);
+			path = Houses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F2CFF92902B22900E929DE /* Preview Assets.xcassets in Resources */,
+				89F2D00C2902B8E600E929DE /* HousesData.json in Resources */,
 				89F2CFF62902B22900E929DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F2D0012902B23C00E929DE /* HouseList.swift in Sources */,
 				89F2CFF42902B22700E929DE /* ContentView.swift in Sources */,
+				89F2D0102902BBE700E929DE /* HouseDetail.swift in Sources */,
+				89F2D0072902B85B00E929DE /* HouseViewModel.swift in Sources */,
+				89F2D0052902B84800E929DE /* House.swift in Sources */,
 				89F2CFF22902B22700E929DE /* GameOfThronesApp.swift in Sources */,
+				89F2D00E2902BAC100E929DE /* HouseRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
