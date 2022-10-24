@@ -9,7 +9,6 @@ import SwiftUI
 
 @main
 struct GameOfThronesApp: App {
-  
    @StateObject private var viewModel = HouseViewModel()
     var body: some Scene {
         WindowGroup {

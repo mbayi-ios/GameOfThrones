@@ -12,37 +12,37 @@ struct BookList: View {
     private var title: String = "Books of GT"
     var body: some View {
         NavigationView {
-            ZStack {
-
-                List {
-                    ForEach(viewModel.books) { book in
-                        NavigationLink {
-                            BookDetail(book: book)
-                        } label: {
-                            BookRow(book: book)
+            ScrollView {
+                VStack (alignment: .leading){
+                        ForEach(viewModel.books) { book in
+                            NavigationLink {
+                                BookDetail(book: book)
+                            } label: {
+                                BookRow(book: book)
+                            }
                         }
+                        .navigationTitle(title)
+                        .foregroundColor(.green)
+                        .listStyle(InsetGroupedListStyle())
+                        .padding(10)
                     }
-                    .navigationTitle(title)
-                    .foregroundColor(.blue)
-                    .listStyle(InsetGroupedListStyle())
-                    .padding(10)
-                }
-                .onAppear {
-                    viewModel.fetchBooks()
-                }
-                .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
-                    Button("Retry") {
+                    .onAppear {
                         viewModel.fetchBooks()
                     }
+                    .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
+                        Button("Retry") {
+                            viewModel.fetchBooks()
+                        }
+                    }
                 }
-            }
         }
-        .accentColor(.black)
+        .accentColor(.green)
     }
 }
 
 struct BookList_Previews: PreviewProvider {
     static var previews: some View {
         BookList()
+            .preferredColorScheme(.dark)
     }
 }

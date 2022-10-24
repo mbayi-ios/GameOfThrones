@@ -29,6 +29,7 @@ struct BookDetail: View {
                     .font(.title3)
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity)
+
                 Spacer()
                 VStack(alignment: .leading, spacing: 10) {
                     Text(book.publisher)
@@ -44,7 +45,8 @@ struct BookDetail: View {
 
             .frame(width: 250, height: 100)
             .padding(.horizontal, 30)
-            .background(Color.white)
+            .foregroundColor(.black)
+            .background(Color.gray)
             .cornerRadius(20)
             .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 2)
 
@@ -64,5 +66,6 @@ struct BookDetail_Previews: PreviewProvider {
     //static var books = Book()
     static var previews: some View {
         BookDetail(book: Book(name: "A Storm of Swords", isbn: "232", numberOfPages: 10, publisher: "Bantam Books", country: "kenya", mediaType: "ulr"))
+            .preferredColorScheme(.dark)
     }
 }
