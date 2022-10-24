@@ -47,12 +47,6 @@ For the project to achieve simple MVP
 
 All the above requirement features are achieved.
 
-
-| Houses |Books |
-| ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/197495550-f5f49217-7934-4006-97e1-48506a6eea7d.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197495555-9ce476dc-7cb6-4fbf-883a-b63ab32d6f82.png" width= "50%" /> |
-
-
 | Error | Error |
 | ------  | ----- |
 | <img src="https://user-images.githubusercontent.com/91916741/197266220-ed87d528-7051-4e7c-8cce-209844d5b661.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266231-8cfc56d0-9451-4a10-8bbe-6321a1cae21a.png" width= "50%" /> |
