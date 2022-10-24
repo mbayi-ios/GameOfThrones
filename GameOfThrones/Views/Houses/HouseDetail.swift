@@ -48,10 +48,10 @@ struct HouseDetail: View {
                                 .foregroundColor(.white)
                                 .fontWeight(.bold)
                         }
-                        .padding(10)
+                        .padding()
                     }
                     .padding()
-                    .background(Color.red)
+                    .background(Color.green)
                     .cornerRadius(10)
                 }
             }

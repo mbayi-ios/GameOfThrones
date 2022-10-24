@@ -10,39 +10,41 @@ import SwiftUI
 struct CharacterList: View {
     @StateObject private var viewModel: CharacterViewModel = CharacterViewModel()
     private var title: String = "Charaters of GT"
+
     var body: some View {
         NavigationView {
-            ZStack {
-
-                List {
+            ScrollView {
+                VStack (alignment: .leading){
                     ForEach(viewModel.characters) { character in
-                        NavigationLink {
-                            CharacterDetail(character: character)
-                        } label: {
-                            CharacterRow(character: character)
+                            NavigationLink {
+                                CharacterDetail(character: character)
+                            } label: {
+                                CharacterRow(character: character)
+                            }
                         }
+                        .navigationTitle(title)
+                        .foregroundColor(.green)
+                        .listStyle(InsetGroupedListStyle())
+                        .padding(10)
                     }
-                    .navigationTitle(title)
-                    .foregroundColor(.blue)
-                    .listStyle(InsetGroupedListStyle())
-                    .padding(10)
-                }
                 .onAppear {
                     viewModel.fetchCharacters()
                 }
-                .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
-                    Button("Retry") {
-                        viewModel.fetchCharacters()
+                    .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
+                        Button("Retry") {
+                            viewModel.fetchCharacters()
+                        }
                     }
                 }
-            }
         }
-        .accentColor(.black)
+        .accentColor(.green)
     }
+
 }
 
 struct CharacterList_Previews: PreviewProvider {
     static var previews: some View {
         CharacterList()
+            .preferredColorScheme(.dark)
     }
 }
