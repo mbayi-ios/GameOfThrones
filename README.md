@@ -42,6 +42,8 @@ For the project to achieve simple MVP
 - 2. Error handling in a more user friendly manner
 - 3. Able to fetch characters and details of each characters
 - 4. Able to fetch books and details of each books
+- 5. Able to like a book and a character by clicking the heart button
+- 6. Displaying images of characters and books
 
 All the above requirement features are achieved.
 
