@@ -17,8 +17,7 @@ struct HouseRow: View {
 }
 
 struct HouseRow_Previews: PreviewProvider {
-    static var houses = HouseViewModel().houses
     static var previews: some View {
-        HouseRow(house: houses[1])
+        HouseRow(house:House(name: "House 1", region: "Region one", coatOfArms: "CoatOfArm", words: "word", founded: "19 AD"))
     }
 }

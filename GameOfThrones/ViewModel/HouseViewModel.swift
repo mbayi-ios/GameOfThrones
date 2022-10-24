@@ -8,8 +8,6 @@
 import SwiftUI
 
 final class HouseViewModel: ObservableObject {
-    //@Published var houses: [House] = load("HousesData.json") -> loading data from json
-
     @Published private(set) var houses: [House] = []
     @Published private(set) var error: NetworkingManager.NetworkingError?
     @Published var hasError = false

@@ -1,25 +1,25 @@
 //
-//  HomeView.swift
+//  CharacterList.swift
 //  GameOfThrones
 //
-//  Created by Amby on 21/10/2022.
+//  Created by Amby on 24/10/2022.
 //
 
 import SwiftUI
 
-struct HouseList: View {
-    @StateObject private var viewModel: HouseViewModel = HouseViewModel()
-    private var title: String = "House of GT"
+struct CharacterList: View {
+    @StateObject private var viewModel: CharacterViewModel = CharacterViewModel()
+    private var title: String = "Charaters of GT"
     var body: some View {
         NavigationView {
             ZStack {
 
                 List {
-                    ForEach(viewModel.houses) { house in
+                    ForEach(viewModel.characters) { character in
                         NavigationLink {
-                            HouseDetail(house: house)
+                            CharacterDetail(character: character)
                         } label: {
-                            HouseRow(house: house)
+                            CharacterRow(character: character)
                         }
                     }
                     .navigationTitle(title)
@@ -28,23 +28,21 @@ struct HouseList: View {
                     .padding(10)
                 }
                 .onAppear {
-                    viewModel.fetchHouses()
+                    viewModel.fetchCharacters()
                 }
                 .alert(isPresented: $viewModel.hasError, error: viewModel.error) {
                     Button("Retry") {
-                        viewModel.fetchHouses()
+                        viewModel.fetchCharacters()
                     }
                 }
             }
         }
-        .accentColor(.white)
+        .accentColor(.black)
     }
 }
 
-
-
-struct HomeView_Previews: PreviewProvider {
+struct CharacterList_Previews: PreviewProvider {
     static var previews: some View {
-        HouseList()
+        CharacterList()
     }
 }
