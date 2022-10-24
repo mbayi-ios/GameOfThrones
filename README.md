@@ -70,18 +70,20 @@ launch screen and list of houses
 
 | How the app appears on phone | Launch Screen |
 | ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/197266263-5b0e1316-6a4b-4483-875f-8d7150be38b6.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266258-0968a59b-6141-4a03-a7b3-e3a3177d9860.png" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/197632075-ae933391-9a65-42cf-8ba4-fd07feb19ed6.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197632077-accd7d33-b806-453b-8131-bd79ce1413e9.png" width= "50%" /> |
 
 | Books | Books |
 | ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/197494279-f10950c9-9ee4-4023-9260-24d10c3a9db9.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197494263-962bbefe-078b-43ae-9c02-d892f53fdd5d.png" width= "50%" /> |
-| <img src="https://user-images.githubusercontent.com/91916741/197494274-c93e09ae-d522-49b8-a8c6-186f0f0db290.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197494215-2ab0f7e1-28bd-4a45-8fb0-c21db93daae6.png" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/197632066-a5785033-46e9-41c0-a2f6-bb8d55e482a2.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197632073-88db1e72-5cc2-49d0-8516-0c9a6a771bfa.png" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/197632069-4e0ea263-c157-4e13-8639-37e88a48d930.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197632064-fe7bc065-a817-4dcd-b509-5eee43afbdba.png" width= "50%" /> |
 
 
 
-| Characters |Characters |
+|  | |
 | ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/197494875-bed7d152-ee8a-4378-926e-141a1fdcbcd7.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197494909-7c28c7cc-2789-49d4-ac90-300807402db6.png" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/197632029-3cbf9812-75dd-4d93-88e3-8037425eac3b.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197632053-93179569-8036-42b0-b7f5-3b4da96f181c.png" width= "50%" /> |
+
+
 
 
 
