@@ -22,7 +22,7 @@ struct BookList: View {
                             }
                         }
                         .navigationTitle(title)
-                        .foregroundColor(.green)
+                        .foregroundColor(Color.theme.accent)
                         .listStyle(InsetGroupedListStyle())
                         .padding(10)
                     }
@@ -36,7 +36,7 @@ struct BookList: View {
                     }
                 }
         }
-        .accentColor(.green)
+        .accentColor(Color.theme.accent)
     }
 }
 

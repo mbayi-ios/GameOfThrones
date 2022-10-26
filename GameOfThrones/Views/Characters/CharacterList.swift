@@ -23,7 +23,7 @@ struct CharacterList: View {
                             }
                         }
                         .navigationTitle(title)
-                        .foregroundColor(.green)
+                        .foregroundColor(Color.theme.accent)
                         .listStyle(InsetGroupedListStyle())
                         .padding(10)
                     }
@@ -37,7 +37,7 @@ struct CharacterList: View {
                     }
                 }
         }
-        .accentColor(.green)
+        .accentColor(Color.theme.accent)
     }
 
 }

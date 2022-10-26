@@ -37,14 +37,9 @@ struct CharacterDetail: View {
                         .font(.title3)
                         .fontWeight(.bold)
                 }
-
             }
+            .background(Color.theme.backgroundColor)
 
-            .frame(width: 250, height: 100)
-            .padding(.horizontal, 30)
-            .background(Color.gray)
-            .cornerRadius(20)
-            .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 2)
 
         }
         .onAppear {
@@ -62,7 +57,6 @@ struct CharacterDetail: View {
 struct CharacterDetail_Previews: PreviewProvider {
     static var previews: some View {
         CharacterDetail(character: Character(name: "Addam Osgrey", gender: "male", culture: "luo", born: "1996", died: "0"))
-            .preferredColorScheme(.dark)
     }
 }
 

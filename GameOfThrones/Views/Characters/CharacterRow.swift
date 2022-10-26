@@ -19,22 +19,24 @@ struct CharacterRow: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(character.firstName)
                         .fontWeight(.semibold)
-                        .foregroundColor(.green)
                     Label {
                         Text(character.gender)
+                            .foregroundColor(Color.theme.secondaryText)
                     } icon: {
                         Image(systemName: "person.circle")
+                            .foregroundColor(Color.theme.secondaryText)
                     }
-                    .foregroundColor(.gray)
+
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .foregroundColor(Color.theme.accent)
 
                 Button(action: {
                     isLiked.toggle()
                 }, label: {
                     Image(systemName: isLiked ? "suit.heart.fill" : "suit.heart")
                         .font(.title3)
-                        .foregroundColor(.green)
+                        .foregroundColor(Color.theme.secondaryText)
                 })
 
                 Button(action: {
@@ -42,7 +44,7 @@ struct CharacterRow: View {
                 }, label: {
                     Image(systemName: "ellipsis")
                         .font(.title3)
-                        .foregroundColor(.white)
+                        .foregroundColor(Color.theme.secondaryText)
                 })
             }
             .padding()
@@ -65,7 +67,7 @@ struct CharacterRow_Previews: PreviewProvider {
 
     static var previews: some View {
         CharacterRow(character: Character(name: "Amby", gender: "male", culture: "luo", born: "1996", died: "0"))
-            .preferredColorScheme(.dark)
+
     }
 }
 

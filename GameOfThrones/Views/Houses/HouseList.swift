@@ -18,12 +18,14 @@ struct HouseList: View {
                     ForEach(viewModel.houses) { house in
                         NavigationLink {
                             HouseDetail(house: house)
+
                         } label: {
                             HouseRow(house: house)
+
                         }
                     }
                     .navigationTitle(title)
-                    .foregroundColor(.blue)
+                    .foregroundColor(Color.theme.accent)
                     .listStyle(InsetGroupedListStyle())
                     .padding(10)
                 }
@@ -37,7 +39,7 @@ struct HouseList: View {
                 }
             }
         }
-        .accentColor(.white)
+        .accentColor(Color.theme.accent)
     }
 }
 

@@ -43,10 +43,10 @@ struct BookDetail: View {
 
             }
 
-            .frame(width: 250, height: 100)
+            .frame(width: 250, height: 80)
             .padding(.horizontal, 30)
-            .foregroundColor(.black)
-            .background(Color.gray)
+            .foregroundColor(Color.theme.backgroundColor)
+            .background(Color.theme.secondaryText)
             .cornerRadius(20)
             .shadow(color: .black.opacity(0.3), radius: 10, x: 0, y: 2)
 

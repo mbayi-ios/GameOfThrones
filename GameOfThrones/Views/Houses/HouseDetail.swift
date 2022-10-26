@@ -10,11 +10,16 @@ import SwiftUI
 struct HouseDetail: View {
     var house: House
     var width = UIScreen.main.bounds.width
+
+    @State var randomHouseImage: String = ""
+
+    let houseImages = ["throne-1", "throne-2", "throne-3", "throne-4"]
+
     var body: some View {
         ZStack(alignment: .top) {
             VStack {
                 HStack {
-                    Image("Throne")
+                    Image(randomHouseImage)
                         .resizable()
                         .frame(width: 300, height: 300)
                 }
@@ -31,7 +36,7 @@ struct HouseDetail: View {
                     Text(house.coatOfArms ?? "No Coat of Arms")
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 10)
-                        .foregroundColor(.gray)
+                        .foregroundColor(Color.theme.accent)
 
                     Text("Founded:")
                         .font(.body)
@@ -45,13 +50,13 @@ struct HouseDetail: View {
 
                         VStack(alignment: .leading, spacing: 4) {
                             Text(house.yearFounded )
-                                .foregroundColor(.white)
+                                .foregroundColor(Color.theme.accent)
                                 .fontWeight(.bold)
                         }
-                        .padding()
+
                     }
                     .padding()
-                    .background(Color.green)
+                    .background(Color.theme.backgroundColor)
                     .cornerRadius(10)
                 }
             }
@@ -63,7 +68,15 @@ struct HouseDetail: View {
                 .padding(.horizontal, -100)
                 .offset(y: -UIScreen.main.bounds.width)
         }
+        .onAppear(perform: {
+            self.randomHouseImage = chooseRandomImage()
+        })
         .animation(.default)
+    }
+
+    private func chooseRandomImage() -> String {
+        let array = houseImages
+        return array.randomElement()!
     }
 }
 

@@ -12,6 +12,8 @@ struct HouseRow: View {
     var body: some View {
         HStack {
             Text(house.name)
+                .fontWeight(.semibold)
+                .foregroundColor(Color.theme.accent)
         }
     }
 }

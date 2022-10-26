@@ -25,13 +25,13 @@ struct BookRow: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(book.name)
                         .fontWeight(.semibold)
-                        .foregroundColor(.green)
+                        .foregroundColor(Color.theme.accent)
                     Label {
                         Text(book.country)
                     } icon: {
                         Image(systemName: "flag.fill")
                     }
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color.theme.secondaryText)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
 
@@ -40,7 +40,7 @@ struct BookRow: View {
                 }, label: {
                     Image(systemName: isLiked ? "suit.heart.fill" : "suit.heart")
                         .font(.title3)
-                        .foregroundColor(.green)
+                        .foregroundColor(Color.theme.secondaryText)
                 })
 
                 Button(action: {
@@ -48,7 +48,7 @@ struct BookRow: View {
                 }, label: {
                     Image(systemName: "ellipsis")
                         .font(.title3)
-                        .foregroundColor(.white)
+                        .foregroundColor(Color.theme.secondaryText)
                 })
             }
             .padding()
@@ -71,7 +71,7 @@ struct BookRow_Previews: PreviewProvider {
 
     static var previews: some View {
         BookRow(book: Book(name: "Book", isbn: "232", numberOfPages: 10, publisher: "3", country: "kenya", mediaType: "ulr"))
-            .preferredColorScheme(.dark)
+            
     }
 }
 

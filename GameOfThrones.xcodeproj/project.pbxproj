@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890DAB562909BB3D0059E23C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DAB552909BB3D0059E23C /* Color.swift */; };
 		8970749C2906568400C7ED16 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970749B2906568400C7ED16 /* BookList.swift */; };
 		8970749E2906569000C7ED16 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970749D2906569000C7ED16 /* BookRow.swift */; };
 		897074A02906569B00C7ED16 /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8970749F2906569B00C7ED16 /* BookDetail.swift */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		890DAB532909BA350059E23C /* Game-Of-ThronesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Game-Of-ThronesTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		890DAB552909BB3D0059E23C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		8970749B2906568400C7ED16 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
 		8970749D2906569000C7ED16 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
 		8970749F2906569B00C7ED16 /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
@@ -89,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890DAB542909BB2F0059E23C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				890DAB552909BB3D0059E23C /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		897074992906565F00C7ED16 /* Books */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +123,7 @@
 		89F0FB88290320BD00D9D82F /* Game Of ThronesTests */ = {
 			isa = PBXGroup;
 			children = (
+				890DAB532909BA350059E23C /* Game-Of-ThronesTests-Info.plist */,
 				89F0FB89290320BD00D9D82F /* Game_Of_ThronesTests.swift */,
 			);
 			path = "Game Of ThronesTests";
@@ -138,6 +150,7 @@
 		89F2CFF02902B22700E929DE /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				890DAB542909BB2F0059E23C /* Extensions */,
 				89F2D0172902E41300E929DE /* Info.plist */,
 				89F2D0112902CFA800E929DE /* Utilities */,
 				89F2D0082902B87E00E929DE /* ViewModel */,
@@ -338,6 +351,7 @@
 				8970749C2906568400C7ED16 /* BookList.swift in Sources */,
 				897074A4290656C200C7ED16 /* CharacterRow.swift in Sources */,
 				897074AC2906571600C7ED16 /* CharacterViewModel.swift in Sources */,
+				890DAB562909BB3D0059E23C /* Color.swift in Sources */,
 				89F2D0072902B85B00E929DE /* HouseViewModel.swift in Sources */,
 				89F2D0052902B84800E929DE /* House.swift in Sources */,
 				89F2D0132902CFBA00E929DE /* NetworkingManager.swift in Sources */,
@@ -366,6 +380,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Game-Of-ThronesTests-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mbayi.Game-Of-ThronesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,6 +400,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Game-Of-ThronesTests-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mbayi.Game-Of-ThronesTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
