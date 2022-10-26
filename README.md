@@ -65,8 +65,6 @@ launch screen and list of houses
 
 | screenshot| screenshot |
 | ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/198127586-ce317598-0041-4ce0-a249-a666df53b7ff.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/198127590-bab9cb37-ef06-4c6b-a218-8d47ddaab841.png" width= "50%" /> |
-
-
+| <img src="https://user-images.githubusercontent.com/91916741/198128183-d01adc5f-8425-4923-907c-3feb0720a207.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/198127590-bab9cb37-ef06-4c6b-a218-8d47ddaab841.png" width= "50%" /> |
 
 
