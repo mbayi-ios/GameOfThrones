@@ -21,6 +21,7 @@ struct HouseDetail: View {
                 HStack {
                     Image(randomHouseImage)
                         .resizable()
+                        .clipShape(RoundedRectangle(cornerRadius: 20))
                         .frame(width: 300, height: 300)
                 }
                 .padding(.top, -30)
