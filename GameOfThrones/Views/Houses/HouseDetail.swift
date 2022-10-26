@@ -63,7 +63,7 @@ struct HouseDetail: View {
             .zIndex(1)
 
             Circle()
-                .fill(.black)
+                .fill(Color.theme.backgroundColor)
                 .frame(width: UIScreen.main.bounds.width + 200, height: UIScreen.main.bounds.width + 200)
                 .padding(.horizontal, -100)
                 .offset(y: -UIScreen.main.bounds.width)
