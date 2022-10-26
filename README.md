@@ -57,14 +57,15 @@ launch screen and list of houses
 
 | Screenshot | screenshot |
 | ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/197266244-199630b8-3c80-4840-a08c-02e7ea2fbcf5.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266248-174e3bd1-21d1-4af7-8ef1-0b237846131d.png" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/198127575-83d13e8a-ec63-4346-a898-2a5f35acfdaf.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/198127579-1c86669a-0262-4276-affc-99fb662223d1.png" width= "50%" /> |
 
-| Error | screenshot |
+| screenshot| screenshot |
 | ------  | ----- |
-| <img src="https://user-images.githubusercontent.com/91916741/197266244-199630b8-3c80-4840-a08c-02e7ea2fbcf5.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/197266248-174e3bd1-21d1-4af7-8ef1-0b237846131d.png" width= "50%" /> |
+| <img src="https://user-images.githubusercontent.com/91916741/198127525-57639af5-9d9d-4a2f-a8d1-9779bf3fb1a9.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/198127566-9d15eed3-4598-4d16-9233-093932b2c371.png" width= "50%" /> |
 
-
-
+| screenshot| screenshot |
+| ------  | ----- |
+| <img src="https://user-images.githubusercontent.com/91916741/198127586-ce317598-0041-4ce0-a249-a666df53b7ff.png" width= "50%" /> |<img src="https://user-images.githubusercontent.com/91916741/198127590-bab9cb37-ef06-4c6b-a218-8d47ddaab841.png" width= "50%" /> |
 
 
 
